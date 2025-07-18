@@ -1,0 +1,163 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ebedef;
+}
+
+.eventHead {
+    height: 400px;
+    position: relative;
+}
+
+.navy {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: right;
+    padding: 10px 20px;
+    z-index: 10;
+}
+
+.navy a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navy a:hover {
+    color: #ff1493;
+}
+
+.eventMaster img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.eventBody {
+    padding: 20px 60px;
+}
+
+.headings {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #000;
+}
+
+.arrow, .arrow1 {
+    float: right;
+    margin-top: 40px;
+}
+
+.arrow a, .arrow1 a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.arrow a:hover, .arrow1 a:hover {
+    color: #ff1493;
+}
+
+.imageRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.image {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.image h4 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #000;
+}
+
+.image p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
+.image:hover h4,
+.image:hover p {
+    color: #ff1493;
+}
+
+.footerDiv {
+    background-color: #222;
+    color: white;
+    padding: 20px 40px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ff1493;
+}
+
+#footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.footer2-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer2-left i {
+    font-size: 24px;
+    color: white;
+}
+
+.footer2-left i:hover {
+    color: #ff1493;
+}
+
+.footer2-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer2-right img {
+    height: 40px;
+}
